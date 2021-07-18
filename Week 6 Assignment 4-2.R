@@ -12,7 +12,7 @@ bibliography: bibliography.bib
 # Markdown Basics
 
 ## Favorite Foods
-1. italian Food
+1. Italian Food
 2. Steak
 3. Cereal
 
@@ -21,11 +21,12 @@ bibliography: bibliography.bib
 
 
 ## Add a Quote
-> "You have power over your mind - not outside events. Realize this and you will find strength."
-> - - Marcus Aurelius
+> You have power over your mind - not outside events. Realize this and you will find strength.
+> - Marcus Aurelius
 
 ## Add an Equation
-Quadratic Formula: $x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$
+
+$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$
   
   ## Add a Footnote
   
