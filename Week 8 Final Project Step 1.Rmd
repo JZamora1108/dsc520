@@ -1,0 +1,50 @@
+---
+title: "Final Project Step 1"
+author: "Jesse Zamora"
+date: "8/1/2021"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r}
+##INTRODUCTION
+
+##The problem I am researching is "What is the most popular American sport, Football, Baseball or Basketball"
+
+##The questions I will ask are "What are the viewer totals for regular season and post-season games?"  "Which sport has the highest ad revenue"
+##and "What sport has the most season ticket holders"
+
+##This is how I will attempt to solve the problem "I will analyze the totals from all three sports for all three questions and compare them
+##with a correlation chart
+
+##These are my data sets
+
+##Data set 1
+##https://www.statista.com/statistics/289979/nfl-number-of-tv-viewers-usa/
+
+##Data set 2
+##https://www.statista.com/statistics/235678/world-series-tv-viewership-in-the-united-states/
+
+##Data set 3
+##https://www.statista.com/statistics/289993/nba-number-of-tv-viewers-usa/
+
+##These are the packages I will need to breakdown the data sets
+##Corrplot
+
+##These are the tables and plots required
+##Xtable
+
+##This is what I do not currently know what to do in order to solve the problem
+##if reliable information or enough reliable information exists
+```
