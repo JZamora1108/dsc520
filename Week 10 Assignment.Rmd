@@ -1,0 +1,31 @@
+---
+title: "Week 10 Assignment"
+author: "Jesse Zamora"
+date: "8/14/2021"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r}
+setwd("C:/Users/14029/R Studio Projects/dsc520-master/data")
+
+dataset1 <- read.csv("binary-classifier-data.csv", header = TRUE)
+
+dataset2 <- read.csv("trinary-classifier-data.csv", header = TRUE)
+
+data_norm <- function(a){(a - min(a))/(max(a) - min(a))}
+dataset1_norm <- as.data.frame(lapply(dataset1[,-1],data_norm))
+
+data_norm <- function(a){(a - min(a))/(max(a) - min(a))}
+dataset2_norm <- as.data.frame(lapply(dataset2[,-1],data_norm))
+```
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
