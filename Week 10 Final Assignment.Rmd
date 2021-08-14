@@ -1,0 +1,52 @@
+---
+title: "Week 10 Final Project Step 3"
+author: "Jesse Zamora"
+date: "8/14/2021"
+output: html_document
+---
+The highly debated question that we are trying to answer is which professional sports in the United States has the 
+highest viewership totals. 
+
+With three data sets all provided by statista.com we have the ability to break down the raw data and 
+conclude which sport between the NFL, MLB and NBA has the highest viewership. 
+
+Here are a couple of additional questions that we could determine
+
+""What are the viewer totals for regular season and post-season games?"  
+"Which sport has the highest ad revenue" and
+"What sport has the most season ticket holders"
+
+
+```{r setup, include=FALSE}
+##Data set 1
+##https://www.statista.com/statistics/289979/nfl-number-of-tv-viewers-usa/
+
+##Data set 2
+##https://www.statista.com/statistics/235678/world-series-tv-viewership-in-the-united-states/
+
+##Data set 3
+##https://www.statista.com/statistics/289993/nba-number-of-tv-viewers-usa/
+```
+
+## Analysis
+
+The data sets would benefit from having correlation chart to see positive, negative or neutral correlations. 
+
+For future steps we will see if information like population size density matters
+or if the biggest NFL viewership location is comparable to the biggest NBA and MLB viewership locations
+
+Similarily a correlation chart would also be the best option here to provide a direct comparison 
+
+
+## Tables and documentations
+
+I would like to conduct future testing as we are currently limited in scope by issues like population size and average age
+
+This is where having corrplot and xtable examples would help to show the differences in both demographics
+
+## Final Notes
+
+With this information, all three professional sports executives could make data based decisions regarding marketting 
+and the potential to create more teams in areas with high viewership but no professional team in state.
+
+
